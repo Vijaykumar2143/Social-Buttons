@@ -1,0 +1,76 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.social-buttons-app-bg-container {
+  background-color: #323f4b;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-buttons-app-card-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 97vh;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 32px;
+}
+.buttons-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.bg-color-1 {
+  background-color: #eab308;
+  width: 65px;
+  color: #ffffff;
+}
+.bg-color-2 {
+  background-color: #ffffff;
+  width: 105px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.bg-color-3 {
+  background-color: #1d4ed8;
+  width: 85px;
+  color: #ffffff;
+}
+
+.button {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  .social-buttons-app-card-container {
+    height: 100vh;
+    width: 650px;
+  }
+  .buttons-bg-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .main-heading {
+    font-size: 52px;
+    margin-bottom: 0px;
+  }
+  .bg-color-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
